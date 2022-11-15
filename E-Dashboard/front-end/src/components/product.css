@@ -1,0 +1,46 @@
+.product-heading li{
+    border: 2px solid white;
+    list-style: none;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    background-color: RGB(31, 27, 44);
+    color: white;
+}
+.product-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.search-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-cont input{
+    background-color: RGB(31, 27, 44);
+    font-size: 1.2rem;
+    color: white;
+    width: 22rem;
+    height: 2.2rem;
+    border: 1px solid white;
+}
+
+.product-cont{
+   overflow-y: scroll;
+   /* border: 2px solid violet; */
+   height: 30rem;
+   
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    border: 1px solid white;
+    position: relative;
+}
+button:hover{
+    cursor: pointer;
+}

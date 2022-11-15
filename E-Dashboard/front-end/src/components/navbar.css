@@ -1,0 +1,30 @@
+*{
+  color: antiquewhite;
+}
+.navbar-cont{
+  border: 2px solid RGB(31, 27, 44);;
+  min-height: 4rem;
+  background-color: blueviolet;
+  margin-bottom: 5px;
+}
+ 
+.ulist li {
+  list-style: none; 
+  /* border: 2px solid red; */
+  padding: 0.4rem;
+  border-radius: 2rem;
+  background-color:green;
+ 
+}
+
+
+.ulist{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+button{
+  background-color: RGB(31, 27, 44);
+  border: none;
+}  
+

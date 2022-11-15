@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+   margin-left: 30%;
+   /* border: 2px solid red; */
+   width: fit-content;
+   padding: 2rem;
+   margin-top: 1rem;
+   justify-content:center;
+   align-items: center;
+   background-color:violet;
+   color: white;
+   border-radius: 2rem;
+}
+.container input{
+    width: 18rem;
+    height: 2rem;
+    margin: 1rem;
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: RGB(31, 27, 44);
+}
+.container button{
+    width: 5rem;
+    height: 2rem;
+    position: relative;
+}
