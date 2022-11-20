@@ -1,0 +1,24 @@
+.navbar-content{
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+.navbar-content li{
+    list-style: none; 
+}
+
+header{
+    background-color:RGB(35, 34, 52);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 4rem;
+    box-shadow: 0px 3px 5px black;
+    font-size: 1.2rem;
+}
+
+header:hover{
+    background-color: #9f63f4;
+}

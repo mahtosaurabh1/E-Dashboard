@@ -20,7 +20,7 @@ function App() {
       <Navbar/>
       <Routes>
 
-        <Route element={<PrivateComponent/>}>
+      <Route element={<PrivateComponent/>}>
       <Route path='/add-product'element={<AddProduct/>}/>
       <Route path='/updateproduct/:id'element={<Updateproduct/>}/>
       <Route path='/profile'element={<Profile/>}/>
