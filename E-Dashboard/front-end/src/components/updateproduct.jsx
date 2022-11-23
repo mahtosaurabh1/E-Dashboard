@@ -31,6 +31,7 @@ function Updateproduct() {
       }
     })
     result=await result.json();
+    alert('updated')
     console.log(result);
   }
   return (

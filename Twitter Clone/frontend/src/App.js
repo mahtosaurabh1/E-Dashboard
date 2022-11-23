@@ -16,7 +16,7 @@ function App() {
     <Navbar/>
     <Routes>
       <Route element={<PrivateComponent/>}>
-      <Route path='/feed' element={<Feed/>}/>
+      <Route path='/' element={<Feed/>}/>
       </Route>
 
       <Route path='/signup' element={<Register/>}/>

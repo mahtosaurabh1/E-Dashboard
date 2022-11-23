@@ -20,3 +20,17 @@
     text-decoration: underline;
     color: aqua;
 }
+.addMessage-content{
+
+}
+.addMessage-content input{
+    width:20rem ;
+    height: 2.5rem;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.addMessage-content button{
+    width:4rem;
+    height: 2.8rem;
+}

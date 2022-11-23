@@ -18,6 +18,7 @@ function Feed() {
     let result = await fetch("http://localhost:5000/feed");
     result = await result.json();
     setMessages(result);
+
   };
 
   const handleAdd= async ()=>{
@@ -29,14 +30,19 @@ function Feed() {
       },
     }); 
     getMessage();
+    setMessage('')
   }
 
+  let trackInput=(e)=>{
+    let val=e.target.value;
+    setMessage(val);
+  }
 
   return (
     <div className="feed-container">
 
       <div className="addMessage-content">
-        <input type="text" value={message} onChange={(e)=>{setMessage(e.target.value)}} />
+        <input type="text" value={message} onChange={trackInput} />
         <button onClick={handleAdd}>add</button>
       </div>
 

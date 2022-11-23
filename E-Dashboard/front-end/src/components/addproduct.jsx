@@ -17,6 +17,10 @@ function AddProduct() {
       },
     });
     result = await result.json();
+    setCategory('')
+    setCompany('')
+    setName('')
+    setPrice('')
     console.log(result);
   }
   return (
