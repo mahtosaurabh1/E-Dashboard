@@ -12,7 +12,7 @@ function Register() {
    useEffect(()=>{
     let auth=localStorage.getItem('user');
     if(auth){
-      navigate('/feed')
+      navigate('/')
     }
    })
 
@@ -28,7 +28,7 @@ function Register() {
     result=await result.json();
     localStorage.setItem('user',JSON.stringify(result))
     console.log(result)
-    navigate('/feed')
+    navigate('/')
 
    }
 

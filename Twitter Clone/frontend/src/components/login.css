@@ -1,4 +1,5 @@
-.signupmain{
+
+.loginmain{
     display: flex;
     flex-direction: column;
     justify-content:center ;
@@ -7,7 +8,7 @@
 }
 
 
-.signup-content{
+.login-content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,4 +33,10 @@
 .input-container{
     display: flex;
     flex-direction: column;
+}
+
+button{
+    margin-left: 2rem;
+    width: 5rem;
+    height: 2.5rem;
 }
